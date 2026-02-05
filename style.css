@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+h1 i {
+    margin-right: 15px;
+}
+
+.search-box {
+    display: flex;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#city-input {
+    flex: 1;
+    padding: 18px 25px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: white;
+}
+
+#search-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0 35px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background 0.3s;
+}
+
+#search-btn:hover {
+    background: #45a049;
+}
+
+.weather-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    backdrop-filter: blur(10px);
+    animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.location h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.location p {
+    color: #666;
+    margin-top: 5px;
+}
+
+.weather-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+#weather-icon {
+    font-size: 80px;
+    color: #FF9800;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.temp-details h1 {
+    font-size: 4rem;
+    color: #333;
+    margin: 0;
+    display: inline;
+    text-shadow: none;
+}
+
+.temp-details h1:after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background: #667eea;
+    bottom: -10px;
+    left: 0;
+    border-radius: 3px;
+}
+
+.unit {
+    font-size: 2rem;
+    color: #666;
+    vertical-align: top;
+}
+
+#description {
+    font-size: 1.5rem;
+    color: #666;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.weather-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.detail:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.detail i {
+    font-size: 30px;
+    color: #667eea;
+    margin-right: 15px;
+}
+
+.detail p:first-child {
+    color: #666;
+    font-size: 14px;
+}
+
+.detail p:last-child {
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+.footer i {
+    color: #ff6b6b;
+    margin: 0 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .weather-details {
+        grid-template-columns: 1fr;
+    }
+    
+    .weather-main {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .temp-details {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .temp-details h1:after {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    #weather-icon {
+        font-size: 60px;
+    }
+    
+    .temp-details h1 {
+        font-size: 3rem;
+    }
+    
+    .location h2 {
+        font-size: 1.8rem;
+    }
+}
